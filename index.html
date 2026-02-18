@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REGRAS</title>
+
+<style>
+body{
+    margin:0;
+    background:#000;
+    color:#00ff88;
+    font-family: "Courier New", monospace;
+    overflow-x:hidden;
+}
+
+h1{
+    text-align:center;
+    font-size:3rem;
+    letter-spacing:6px;
+    margin-top:60px;
+    animation: glitch 2s infinite alternate;
+}
+
+@keyframes glitch{
+    0%{ text-shadow:2px 2px red; }
+    25%{ text-shadow:-2px -2px blue; }
+    50%{ text-shadow:2px -2px lime; }
+    75%{ text-shadow:-2px 2px magenta; }
+    100%{ text-shadow:2px 2px red; }
+}
+
+.container{
+    max-width:900px;
+    margin:60px auto;
+    padding:30px;
+    border:1px solid #00ff88;
+    box-shadow:0 0 25px #00ff88;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:18px 0;
+    transition:0.3s;
+}
+
+li:hover{
+    color:#fff;
+    transform:translateX(8px);
+}
+
+.note{
+    margin-top:40px;
+    padding:20px;
+    border:1px solid #ff0040;
+    box-shadow:0 0 20px #ff0040;
+    color:#ff6b6b;
+    font-size:0.95rem;
+    line-height:1.6;
+}
+
+button{
+    display:block;
+    margin:60px auto;
+    padding:15px 50px;
+    background:#00ff88;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#fff;
+    color:#000;
+    box-shadow:0 0 25px #00ff88;
+}
+
+.background-flicker{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:radial-gradient(circle at center, rgba(0,255,136,0.08), transparent 70%);
+    animation:flicker 3s infinite alternate;
+    pointer-events:none;
+}
+
+@keyframes flicker{
+    0%{ opacity:0.2; }
+    100%{ opacity:0.5; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="background-flicker"></div>
+
+<h1>REGRAS</h1>
+
+<div class="container">
+
+<ul>
+<li>1 - Não usar IA para buscar conteúdo pornográfico ou semelhante.</li>
+<li>2 - Não testar bloqueios nem procurar brechas.</li>
+<li>3 - Se encontrar brecha, bloquear apenas aquela específica.</li>
+<li>4 - Proibido edging por mais de 30 segundos.</li>
+<li>5 - Proibido ejaculação (exceto polução noturna).</li>
+<li>6 - Proibido descumprir qualquer regra.</li>
+<li>7 - Cair = descumprir regra ou consumir qualquer conteúdo pornográfico.</li>
+<li>8 - Se receber conteúdo impróprio, apagar imediatamente e não engajar.</li>
+<li>9 - Proibido pesquisar Jogos Sexuais tanto no Hydra e similares quanto na internet para gifs, fotos, download e semelhantes.</li>
+<li>10 - Se cair, delete todos os sites, sem exceção.</li>
+</ul>
+
+<div class="note">
+<strong>NOTA:</strong> Tudo se resume ao não consumo de conteúdo pornográfico.  
+Pesquisar imagens de mulheres, atrizes, streamers ou similares com intenção de encontrar material sexualizado — seja em apps, jogos, filmes ou qualquer outro meio — é considerado queda se houver intenção.  
+Rever cena, vídeo ou imagem propositalmente ao invés de ignorar também é queda.  
+Qualquer conteúdo que gere excitação e possível estímulo, quando consumido intencionalmente, é considerado queda e exige aplicação imediata da regra 10.
+</div>
+
+</div>
+
+<button onclick="window.location.href='https://codex15.carrd.co/'">
+PROSSEGUIR
+</button>
+
+</body>
+</html>
